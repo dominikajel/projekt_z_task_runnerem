@@ -5,20 +5,106 @@
   box-sizing: border-box;
 }
 
-nav h2 {
-  color: green;
+/*Splash*/
+/*Nav*/
+.navigation {
+  max-width: 933px;
+  max-height: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 41px;
 }
 
-/*Splash*/
-.btn {
-  min-width: 200px;
-  background-color: yellow;
-  color: white;
-  border-radius: 5px;
-  border: 2px solid red;
-  font-weight: 800;
-  padding: 10px 15px;
-  display: inline-block;
-  margin: 0 auto;
+.splash ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
+
+.splash li {
+  display: inline-block;
+}
+
+.splash li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  padding: 0 40px 0 0;
+  color: #ffffff;
+}
+
+.splash li .last {
+  padding-right: 0;
+}
+
+.splash .brand {
+  color: #fed136;
+  font-family: "Libre Baskerville", serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.splash {
+  width: 100vw;
+  min-height: 700px;
+  border: 5px solid blue;
+  background-image: url("../img/Background_Image.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  background-color: #fed136;
+  color: white;
+  border-radius: 2px;
+  font-weight: 700;
+  display: inline-block;
+  min-width: 240px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  min-height: 65px;
+  line-height: 65px;
+}
+
+/*Header*/
+.header {
+  text-align: center;
+  position: relative;
+  top: 157px;
+}
+
+.header .title {
+  font-size: 40px;
+  font-family: "Libre Baskerville", serif;
+  color: #ffffff;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: -1px;
+  line-height: normal;
+  position: relative;
+  top: 15px;
+}
+
+.header .subtitle {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 75px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 0;
+  margin-bottom: 5px;
+  position: relative;
+  bottom: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */
