@@ -1,0 +1,25 @@
+/*Global*/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+nav h2 {
+  color: green;
+}
+
+/*Splash*/
+
+.btn {
+  min-width: 200px;
+  background-color: yellow;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid red;
+  font-weight: 800;
+  padding: 10px 15px;
+  display: inline-block;
+  margin: 0 auto;
+}
