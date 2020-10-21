@@ -10,9 +10,12 @@
 .navigation {
   max-width: 933px;
   max-height: 26px;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
   margin: 0 auto;
   margin-top: 41px;
 }
@@ -21,6 +24,7 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
+  z-index: 2;
 }
 
 .splash li {
@@ -45,6 +49,7 @@
   font-family: "Libre Baskerville", serif;
   font-size: 26px;
   font-weight: 400;
+  z-index: 1;
 }
 
 .splash {
@@ -55,6 +60,18 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+}
+
+.splash::after {
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  opacity: 0.5;
+  position: absolute;
 }
 
 .btn {
@@ -63,16 +80,16 @@
   border-radius: 2px;
   font-weight: 700;
   display: inline-block;
-  min-width: 240px;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
+  min-width: 240px;
   min-height: 65px;
   line-height: 65px;
+  text-align: center;
 }
 
 /*Header*/
@@ -80,6 +97,7 @@
   text-align: center;
   position: relative;
   top: 157px;
+  z-index: 1;
 }
 
 .header .title {
@@ -106,5 +124,4 @@
   position: relative;
   bottom: 30px;
 }
-
 /*# sourceMappingURL=style.css.map */
