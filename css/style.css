@@ -5,6 +5,46 @@
   box-sizing: border-box;
 }
 
+.subheader {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 75px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subtext {
+  font-family: "Libre Baskerville", serif;
+  color: #777777;
+  font-size: 16px;
+  font-style: italic;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+}
+
+.miniheader {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 60px;
+  margin: 0 0 0 0;
+}
+
+.minitext {
+  font-family: "Libre Baskerville", serif;
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: normal;
+  line-height: normal;
+  color: #737373;
+}
+
 /*Splash*/
 /*Nav*/
 .navigation {
@@ -123,5 +163,42 @@
   margin-bottom: 5px;
   position: relative;
   bottom: 30px;
+}
+
+/*Services*/
+.services-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.mini {
+  border: 3px solid red;
+  text-align: center;
+}
+
+.mini p {
+  color: #777777;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -0.35px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0 0 0 0;
+}
+
+.mini i {
+  font-size: 35px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  border: 3px solid #fed136;
+  background-color: #ffffff;
+  color: #fed136;
 }
 /*# sourceMappingURL=style.css.map */

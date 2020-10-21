@@ -10,6 +10,46 @@ $font-text: "Roboto Slab", serif;
 $font-header: "Montserrat", sans-serif;
 $font-italic: "Libre Baskerville", serif;
 
+.subheader {
+  font-family: $font-header;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 75px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subtext {
+  font-family: $font-italic;
+  color: #777777;
+  font-size: 16px;
+  font-style: italic;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+}
+
+.miniheader {
+  font-family: $font-header;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 60px;
+  margin: 0 0 0 0;
+}
+
+.minitext {
+  font-family: $font-italic;
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: normal;
+  line-height: normal;
+  color: #737373;
+}
+
 /*Splash*/
 
 /*Nav*/
@@ -22,7 +62,6 @@ $font-italic: "Libre Baskerville", serif;
   align-items: center;
   margin: 0 auto;
   margin-top: 41px;
-  
 }
 .splash ul {
   margin: 0;
@@ -43,7 +82,6 @@ $font-italic: "Libre Baskerville", serif;
   padding: 0 40px 0 0;
   color: #ffffff;
 }
-
 
 .splash li .last {
   padding-right: 0;
@@ -67,7 +105,7 @@ $font-italic: "Libre Baskerville", serif;
 }
 
 .splash::after {
-  content:"";
+  content: "";
   top: 0;
   left: 0;
   height: 100%;
@@ -126,4 +164,39 @@ $font-italic: "Libre Baskerville", serif;
   margin-bottom: 5px;
   position: relative;
   bottom: 30px;
+}
+
+/*Services*/
+
+.services-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.mini {
+  border: 3px solid red;
+  text-align: center;
+}
+
+.mini p {
+  color: #777777;
+  font-family: $font-text;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: -0.35px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0 0 0 0;
+}
+
+.mini i {
+  font-size: 35px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50%;
+  text-align: center;
+  border: 3px solid #fed136;
+  background-color: #ffffff;
+  color: #fed136;
 }
