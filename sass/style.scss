@@ -10,15 +10,23 @@ $font-text: "Roboto Slab", serif;
 $font-header: "Montserrat", sans-serif;
 $font-italic: "Libre Baskerville", serif;
 
+.container {
+  max-width: 1140px;
+  border: 2px solid green;
+  margin: 0 auto;
+  padding: 118px 0;
+}
 .subheader {
   font-family: $font-header;
   font-size: 40px;
   font-weight: 700;
   font-style: normal;
-  letter-spacing: normal;
-  line-height: 75px;
+  // letter-spacing: normal;
   text-align: center;
   text-transform: uppercase;
+  border: 4px solid orange;
+  margin: 0;
+  padding: 0 0 17px 0;
 }
 
 .subtext {
@@ -27,8 +35,11 @@ $font-italic: "Libre Baskerville", serif;
   font-size: 16px;
   font-style: italic;
   letter-spacing: normal;
-  line-height: normal;
+  display: block;
   text-align: center;
+  border: 4px solid orange;
+  margin: 0;
+  padding: 0 0 54px 0;
 }
 
 .miniheader {
@@ -170,23 +181,28 @@ $font-italic: "Libre Baskerville", serif;
 
 .services-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  max-width: 934px;
+  border: 5px solid blue;
+  margin: 0 auto;
 }
 .mini {
   border: 3px solid red;
   text-align: center;
+ width: 274px;
+ padding: 0 0 0 0;
+
 }
 
 .mini p {
   color: #777777;
   font-family: $font-text;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
   font-style: normal;
   letter-spacing: -0.35px;
-  line-height: 1.5;
-  text-align: center;
   margin: 0 0 0 0;
+  border: 2px solid red;
 }
 
 .mini i {
