@@ -45,11 +45,11 @@ $font-italic: "Libre Baskerville", serif;
 .miniheader {
   font-family: $font-header;
   font-size: 16px;
-  font-weight: 900;
+  font-weight: 700;
   font-style: normal;
   letter-spacing: normal;
-  line-height: 60px;
-  margin: 0 0 0 0;
+  margin: 0;
+  padding: 0;
 }
 
 .minitext {
@@ -57,8 +57,9 @@ $font-italic: "Libre Baskerville", serif;
   font-size: 14px;
   font-style: italic;
   letter-spacing: normal;
-  line-height: normal;
   color: #737373;
+  margin: 4px 0 0 0;
+  padding: 0;
 }
 
 /*Splash*/
@@ -215,4 +216,30 @@ $font-italic: "Libre Baskerville", serif;
   border: 3px solid #fed136;
   background-color: #ffffff;
   color: #fed136;
+}
+
+/*Portfolio*/
+
+.portfolio-wrapper {
+  display: flex;
+  max-width: 922px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.portfolio-mini {
+  width: 291px;
+  flex: 0 0 33,33%;
+}
+
+.portfolio-mini .text {
+  padding: 26px 0 26px 0;
+  margin: 0;
+  text-align: center;
+}
+
+.portfolio-mini img {
+  margin: 0;
+  padding: 0;
 }
